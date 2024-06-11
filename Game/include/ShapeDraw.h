@@ -1,0 +1,11 @@
+void DrawCircle(float_t radius, float_t x, float_t y, char8_t r, char8_t g, char8_t b, bool filled);
+void DrawLine(float_t startX, float_t startY, float_t endX, float_t endY, char8_t r, char8_t g, char8_t b);
+void DrawSpaceShip(float_t x, float_t y, float_t width, float_t height, char8_t r, char8_t g, char8_t b, float_t rot);
+void DrawSaucer(float_t x, float_t y, float_t width, float_t height, char8_t r, char8_t g, char8_t b);
+void DrawDeathStar(float_t x, float_t y, float_t width, float_t height, char8_t r, char8_t g, char8_t b, float_t rot, int type);
+void DrawAsteroid(float_t x, float_t y, float_t size, char8_t r, char8_t g, char8_t b, float_t rot);
+void DrawShield(float_t x, float_t y, float_t width, float_t height, char8_t r, char8_t g, char8_t b);
+void DrawLetter(float_t x, float_t y, char8_t r, char8_t g, char8_t b, char8_t letter, float_t size);
+void DrawNumber(float_t x, float_t y, char8_t r, char8_t g, char8_t b, int number, float_t size);
+void DrawLetters(float_t x, float_t y, char8_t r, char8_t g, char8_t b, char8_t* letters, int arrayCount, float_t size);
+void DrawNumbers(float_t x, float_t y, char8_t r, char8_t g, char8_t b, int* numbers, int arrayCount, float_t size);
